@@ -1,0 +1,8 @@
+.DS_Store
+wp-*
+xmlrpc.php
+license.txt
+readme.html
+/index.php
+!wp-content
+!wp-content/themes/**
