@@ -1,0 +1,31 @@
+body.admin-bar #header{
+    margin-top: 32px;
+}
+@media screen and ( max-width: 782px ) {
+    body.admin-bar #header{
+        margin-top: 46px;
+    }
+}
+ul#menu-shop,
+ul#menu-company,
+ul#menu-about{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+ul#menu-shop > li > a,
+ul#menu-company > li > a,
+ul#menu-about > li > a{
+    color: rgba(255, 255, 255, 0.7);
+}
+ul#menu-shop > li,
+ul#menu-company > li,
+ul#menu-about > li{
+    padding: 0.375rem 0;
+}
+ul#menu-shop > li > a:hover,
+ul#menu-company > li > a:hover,
+ul#menu-about > li > a:hover {
+    color: #fff;
+}
